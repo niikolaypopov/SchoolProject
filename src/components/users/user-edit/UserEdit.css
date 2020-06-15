@@ -1,0 +1,30 @@
+.user-edit-wrapper {
+   display:block; 
+   margin: 0 auto;
+   background: #3BE2AB;
+   width:50%;
+}
+
+.user-edit-form {
+    margin-top: 4%;
+    background: '#FFF';
+    padding: 20px;
+}
+
+.user-edit-wrapper .user-edit-form .form-group {
+    text-align: left;
+}
+
+.user-edit-form .form-group:nth-child(5n) {
+    width:50%;
+    text-align: center;
+    float:left;
+}
+.user-edit-form .form-group:nth-child(6n) {
+    width: 50%;
+    text-align: center;
+    float:right;
+}
+.user-edit-form .form-group {
+    color: white;
+}

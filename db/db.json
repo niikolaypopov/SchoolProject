@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "name": "Nikolay Popov",
+      "email": "niikolay@gmail.com",
+      "password": "12345",
+      "age": "22",
+      "errorMessage": "",
+      "isActive": true,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": 1
+    },
+    {
+      "email": "admin@admin.com",
+      "password": "1234",
+      "name": "Ivan Ivanov",
+      "age": "22",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": 2
+    },
+    {
+      "email": "vasil@abv.bg",
+      "password": "12345",
+      "name": "Vasil",
+      "age": "12",
+      "isAdmin": false,
+      "isActive": true,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": 3
+    },
+    {
+      "name": "Admin Admin",
+      "email": "admin@1234.com",
+      "password": "admin",
+      "age": "21",
+      "errorMessage": "",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": 4
+    }
+  ],
+  "notes": [
+    {
+      "title": "Homework",
+      "content": "Math homework",
+      "authorId": 1,
+      "authorName": "Nikolay Popov",
+      "date": "2020-06-15T16:24:47.808Z",
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "title": "English lesson",
+      "content": "adasdasdasdas",
+      "authorId": 2,
+      "authorName": "Ivan Ivanov",
+      "date": "2020-06-15T16:27:14.074Z",
+      "status": "Pending",
+      "id": 2
+    },
+    {
+      "title": "Test Todo",
+      "content": "asdaubuaobsduuabsudasd",
+      "authorId": 2,
+      "authorName": "Ivan Ivanov",
+      "date": "2020-06-15T16:28:07.933Z",
+      "status": "Done",
+      "id": 3
+    },
+    {
+      "title": "Fitness Workout",
+      "content": "asdasdasdsdads",
+      "authorId": 1,
+      "authorName": "Nikolay Popov",
+      "date": "2020-06-15T18:11:04.205Z",
+      "status": "Pending",
+      "id": 4
+    },
+    {
+      "title": "Meet with friends ",
+      "content": "sadasdasdas",
+      "authorId": 4,
+      "authorName": "Admin Admin",
+      "date": "2020-06-15T18:12:23.813Z",
+      "status": "Done",
+      "id": 5
+    },
+    {
+      "title": "Family Dinner",
+      "content": "aaasfasfadf",
+      "authorId": 4,
+      "authorName": "Admin Admin",
+      "date": "2020-06-15T18:12:35.890Z",
+      "status": "Active",
+      "id": 6
+    }
+  ]
+}

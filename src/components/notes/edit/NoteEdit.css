@@ -1,0 +1,14 @@
+.note-edit-wrapper  {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    background-color: #3BE2AB;
+    padding:20px;
+}
+
+.note-edit-wrapper  .form-group {
+text-align:left;   
+color:white;
+}
+

@@ -1,0 +1,85 @@
+
+.todoCardParentClass { 
+   margin:20px;
+   box-shadow: #3BE2AB;
+}
+.todoCardHeader {
+   padding-right:5px;
+   background-color: #3BE2AB;
+   color:white;
+   text-transform: uppercase;
+   height:30px;
+}
+.todoCardHeader span {
+    float:right;
+    padding-right:10px;
+}
+.todoCardHeader a {
+    float:left;
+    padding-left:10px;
+}
+
+.todoCardTitle {
+    float:left;
+}
+.todoCardHeader, .todoCardContent { 
+    border-bottom: 1px solid #3BE2AB;
+}
+.todoCardContent,.todoCardFooter {
+    padding:20px;
+}
+.todoCardStatus {
+    display: block;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.status {
+    margin-right:20px;
+   
+}
+ .status-active { 
+    background-color: #1d70f5;
+    width:100%;
+    height:30px;
+    border-radius: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+}
+.status-active:after {
+    content: 'Active';
+    font-size:12px;
+}
+
+.status-success {
+    background-color: green; 
+    width: 100%;
+    height:30px;
+    border-radius: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+} 
+.status-success:after {
+    content: 'Done';
+    font-size:12px;
+}
+
+.status-pending {
+    background-color: lightgray; 
+    width: 100%;
+    height:30px;
+    border-radius: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+}
+
+.status-pending:after {
+    content: 'Pending...';
+    font-size:12px;
+}
+
+ 
+
+
